@@ -15,6 +15,16 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  // Most of your states/variables should place here:
+
+  @override
+  void initState() {
+    // Do anything here before the screen shows:
+
+    super.initState();
+  }
+
+  // Show the screen
   @override
   Widget build(BuildContext context) {
     return Scaffold(
